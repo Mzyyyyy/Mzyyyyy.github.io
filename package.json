@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev":"vitepress dev docs",
-    "build":"vitepress build docs",
-    "serve":"vitepress serve docs"
+    "build":"vitepress build docs && node move.js",
+    "serve":"vitepress serve docs",
+    "move":"node move.js"
   },
   "author": "",
   "license": "ISC",
