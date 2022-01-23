@@ -31,7 +31,19 @@ module.exports = {
         { text: 'TS', link: '/ts/' },
         { text: 'HTTP', link: '/http/' },
         { text: 'CSS', link: '/css/' },
-        { text: '算法', link: '/leetcode/' }
+        { text: '算法', link: '/leetcode/' },
+        { 
+          text: '微前端', 
+          children: [
+            { text: 'single-spa', link: '/micro-front/single-spa' },
+          ]
+        },    
       ]
+      // sidebar:{
+      //   '/micro-front/':[
+      //     { text: 'single-spa', link: '/micro-front/single-spa' },
+      //     { text: 'single-spa', link: '/micro-front/single-spa' },
+      //   ]
+      // }
     }
   }
