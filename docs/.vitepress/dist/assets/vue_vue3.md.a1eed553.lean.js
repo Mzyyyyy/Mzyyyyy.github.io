@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as i}from"./app.372697f7.js";const f='{"title":"\u4E00","description":"","frontmatter":{},"relativePath":"vue/vue3.md","lastUpdated":1642948740085}',l={},r=i("",4),o=[r];function d(s,c,_,p,n,h){return a(),t("div",null,o)}var m=e(l,[["render",d]]);export{f as __pageData,m as default};

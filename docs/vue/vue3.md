@@ -1,7 +1,7 @@
 # 一
 
 1. Vue1 一个属性一个 watcher，Vue2 控制 watcher 在组件层面（mount 方法时 observer(\_data)实现），组件内部使用虚拟 dom 更新，这样也可以保证虚拟 dom 不会过大
-2. react 使用 fiber：通过浏览器渲每一帧渲染后的空闲时间进行虚拟 diff 的计算（浏览器在渲染后的空闲会触发 requestIdleCallback [https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback](url)） 并且把虚拟 diff 的计算以链表表示 dom 的形式进行，使其可以终止、继续
+2. react 使用 fiber：通过浏览器渲每一帧渲染后的空闲时间进行虚拟 diff 的计算（浏览器在渲染后的空闲会触发 requestIdleCallback 并且把虚拟 diff 的计算以链表表示 dom 的形式进行，使其可以终止、继续
 3. 组件之间的数据更新，是通过响应式去通知，组件内部没有响应式的 wathcer，而是通过虚拟 Dom 更新
 
 # 二

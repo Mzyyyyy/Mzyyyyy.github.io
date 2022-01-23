@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.372697f7.js";const f='{"title":"","description":"","frontmatter":{},"relativePath":"micro-front/index.md","lastUpdated":1640008795412}',r={};function o(n,c,s,p,i,d){return a(),e("div")}var l=t(r,[["render",o]]);export{f as __pageData,l as default};
