@@ -26,18 +26,36 @@ module.exports = {
       sidebar: [
         { text: '介绍', link: '/mine/' },
         { text: 'CLI 和 Node scripts', link: '/cli/' },
-        { text: 'JS', link: '/js/' },
-        { text: 'Vue', link: '/vue/' },
-        { text: 'TS', link: '/ts/' },
-        { text: 'HTTP', link: '/http/' },
-        { text: 'CSS', link: '/css/' },
+        // { text: 'JS', link: '/js/' },
+        { 
+          text: 'Vue', 
+          children: [
+            { text: 'Vue2学习', link: '/Vue/vue2' },
+            { text: 'Vue3学习', link: '/Vue/vue3' },
+          ]
+        },
+        // { text: 'TS', link: '/ts/' },
+        { 
+          text: 'HTTP', 
+          children: [
+            { text: 'TCP', link: '/http/TCP' },
+          ]
+        },
+        // { text: 'CSS', link: '/css/' },
         { text: '算法', link: '/leetcode/' },
         { 
           text: '微前端', 
           children: [
             { text: 'single-spa', link: '/micro-front/single-spa' },
           ]
-        },    
+        },
+        { text: '浏览器', link: '/browser/' },
+        { 
+          text: 'SVG', 
+          children: [
+            { text: 'SVG', link: '/svg/' },
+          ]
+        },
       ]
       // sidebar:{
       //   '/micro-front/':[
