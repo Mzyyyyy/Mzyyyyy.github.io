@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.446d80f6.js";const f='{"title":"1.JavaScript \u89C4\u5B9A\u4E86\u51E0\u79CD\u8BED\u8A00\u7C7B\u578B\uFF1F","description":"","frontmatter":{},"relativePath":"js/index.md","lastUpdated":1642947557374}',r={};function o(s,c,n,p,d,i){return a(),e("div")}var l=t(r,[["render",o]]);export{f as __pageData,l as default};

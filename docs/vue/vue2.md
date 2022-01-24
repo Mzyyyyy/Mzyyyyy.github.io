@@ -2,8 +2,6 @@
 
 ## vue-loader 关闭热重载
 
-这个特性之前漏掉了
-
 ```javascript
 module.exports = {
   module: {

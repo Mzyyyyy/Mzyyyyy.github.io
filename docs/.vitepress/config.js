@@ -27,13 +27,14 @@ module.exports = {
         { text: '介绍', link: '/mine/' },
         { text: 'CLI 和 Node scripts', link: '/cli/' },
         // { text: 'JS', link: '/js/' },
-        { 
-          text: 'Vue', 
-          children: [
-            { text: 'Vue2学习', link: '/Vue/vue2' },
-            { text: 'Vue3学习', link: '/Vue/vue3' },
-          ]
-        },
+        // { 
+        //   text: 'Vue', 
+        //   children: [
+        //     { text: 'Vue2学习', link: '/Vue/vue2' },
+        //     { text: 'Vue3学习', link: '/Vue/vue3' },
+        //   ]
+        // },
+        { text: 'Vue相关', link: '/vue/' },
         // { text: 'TS', link: '/ts/' },
         { 
           text: 'HTTP', 
