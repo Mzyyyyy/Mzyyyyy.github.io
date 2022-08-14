@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>single-spa | 前端随笔</title>
+    <meta name="description" content="A VitePress site">
+    <link rel="stylesheet" href="/assets/style.019f39fc.css">
+    <link rel="modulepreload" href="/assets/Home.a294dfc9.js">
+    <link rel="modulepreload" href="/assets/app.34e5d764.js">
+    <link rel="modulepreload" href="/assets/micro-front_single-spa-diy.md.9d8aa440.lean.js">
+    
+    <link rel="icon" href="/mzy.png">
+    <meta name="twitter:title" content="single-spa | 前端随笔">
+    <meta property="og:title" content="single-spa | 前端随笔">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme"><header class="nav-bar" data-v-675d8756><div class="sidebar-button" data-v-675d8756><svg class="icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z" class></path></svg></div><a class="nav-bar-title" href="/" aria-label="前端随笔, back to home" data-v-675d8756 data-v-4a583abe><!----> 前端随笔</a><div class="flex-grow" data-v-675d8756></div><div class="nav" data-v-675d8756><nav class="nav-links" data-v-675d8756 data-v-eab3edfe><!--[--><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item" href="/" data-v-b8818f8c>首页 <!----></a></div></div><!--]--><!----><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item isExternal" href="https://github.com/Mzyyyyy" target="_blank" rel="noopener noreferrer" data-v-b8818f8c>GitHub <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-b8818f8c><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div></div></nav></div><!--[--><!--]--></header><aside class="sidebar" data-v-83e92a68><nav class="nav-links nav" data-v-83e92a68 data-v-eab3edfe><!--[--><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item" href="/" data-v-b8818f8c>首页 <!----></a></div></div><!--]--><!----><div class="item" data-v-eab3edfe><div class="nav-link" data-v-eab3edfe data-v-b8818f8c><a class="item isExternal" href="https://github.com/Mzyyyyy" target="_blank" rel="noopener noreferrer" data-v-b8818f8c>GitHub <svg class="icon outbound" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15" data-v-b8818f8c><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div></div></nav><!--[--><!--]--><ul class="sidebar-links" data-v-83e92a68><!--[--><li class="sidebar-link"><a class="sidebar-link-item" href="/mine/">介绍</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/cli/">CLI 和 Node scripts</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="/vue/">Vue相关</a><!----></li><li class="sidebar-link"><p class="sidebar-link-item">HTTP</p><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/http/TCP">TCP</a><!----></li></ul></li><li class="sidebar-link"><a class="sidebar-link-item" href="/leetcode/">算法</a><!----></li><li class="sidebar-link"><p class="sidebar-link-item">微前端</p><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/micro-front/single-spa">single-spa</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item active" href="/micro-front/single-spa-diy">手写single-spa</a><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="#应用状态">应用状态</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#应用注册（registerapplication）">应用注册（registerApplication）</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#基座应用启动-start">基座应用启动(start)</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#更新应用相关-reroute">更新应用相关(reroute)</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#路由监听">路由监听</a><!----></li><li class="sidebar-link"><a class="sidebar-link-item" href="#结束">结束</a><!----></li></ul></li></ul></li><li class="sidebar-link"><a class="sidebar-link-item" href="/browser/">浏览器</a><!----></li><li class="sidebar-link"><p class="sidebar-link-item">SVG</p><ul class="sidebar-links"><li class="sidebar-link"><a class="sidebar-link-item" href="/svg/">SVG</a><!----></li></ul></li><!--]--></ul><!--[--><!--]--></aside><div class="sidebar-mask"></div><main class="page" data-v-7eddb2c4><div class="container" data-v-7eddb2c4><!--[--><!--]--><div style="position:relative;" class="content" data-v-7eddb2c4><div><h1 id="single-spa" tabindex="-1">single-spa <a class="header-anchor" href="#single-spa" aria-hidden="true">#</a></h1><p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/90696bfd17824a8bb8c7a977af92e22a~tplv-k3u1fbpfcp-watermark.image?" alt="single-spa.png"></p><p><code>本文需结合single-spa源码食用，如上图，其大致实现方向为应用注册、应用更新、路由监听三个主要功能</code></p><p><a href="https://github.com/single-spa/single-spa" target="_blank" rel="noopener noreferrer">single-spa源码地址</a></p><h2 id="应用状态" tabindex="-1">应用状态 <a class="header-anchor" href="#应用状态" aria-hidden="true">#</a></h2><p>为了更直观体现，我把所有子应用状态先抽离出来放在前面，方便后面的使用。</p><div class="language-js"><pre><code><span class="token keyword">const</span> <span class="token constant">NOT_LOADED</span> <span class="token operator">=</span> <span class="token string">&#39;NOT_LOADED&#39;</span> <span class="token comment">// 未加载/待加载</span>
+<span class="token comment">// 未加载(待加载)每个子应用的默认状态，意味着主应用还没有获取到子应用的 bootstrap、mount、unmount、unload 方法。</span>
+
+<span class="token keyword">const</span> <span class="token constant">LOAD_SOURCE_CODE</span> <span class="token operator">=</span> <span class="token string">&#39;LOAD_SOURCE_CODE&#39;</span> <span class="token comment">// 加载源代码</span>
+<span class="token comment">// 在这个阶段，single-spa 会执行子应用注册时提供的 loadApp 方法，去动态获取子应用的入口 js 文件，然后执行，得到子应用的 bootstrap、mount、unmount、unload 方法。</span>
+
+<span class="token keyword">const</span> <span class="token constant">NOT_BOOTSTRAPPED</span> <span class="token operator">=</span> <span class="token string">&#39;NOT_BOOTSTRAPPED&#39;</span> <span class="token comment">// 未启动/待启动</span>
+<span class="token comment">// 得到子应用的 bootstrap、mount、unmount、unload、update 方法以后，single-spa 会将这些方法添加到子应用对象中。 添加完毕以后，子应用的状态就变为 not_bootstrapped，等待被启动。</span>
+
+<span class="token keyword">const</span> <span class="token constant">BOOTSTRAPPING</span> <span class="token operator">=</span> <span class="token string">&#39;BOOTSTRAPPING&#39;</span>  <span class="token comment">// 子应用启动中</span>
+<span class="token comment">// 子应用被激活以后，就会进入 BOOTSTRAPPING 阶段。此时如果子应用提供了 bootstrap 方法，那么 bootstrap 方法就会触发。</span>
+
+<span class="token keyword">const</span> <span class="token constant">NOT_MOUNTED</span> <span class="token operator">=</span> <span class="token string">&#39;NOT_MOUNTED&#39;</span> <span class="token comment">// 未挂载/待挂载</span>
+<span class="token comment">// 子应用启动以后，自动进入 NOT_MOUNTED 阶段。</span>
+
+<span class="token keyword">const</span> <span class="token constant">MOUNTING</span> <span class="token operator">=</span> <span class="token string">&#39;MOUNTING&#39;</span> <span class="token comment">// 子应用挂载中</span>
+<span class="token comment">// 在这个阶段，自动触发子应用提供的 mount 方法。</span>
+
+<span class="token keyword">const</span> <span class="token constant">MOUNTED</span> <span class="token operator">=</span> <span class="token string">&#39;MOUNTED&#39;</span> <span class="token comment">// 子应用已挂载</span>
+<span class="token comment">// 子应用挂载完毕，子应用的状态变为 MOUNTED。</span>
+
+<span class="token keyword">const</span> <span class="token constant">UNMOUNTING</span> <span class="token operator">=</span> <span class="token string">&#39;UNMOUNTING&#39;</span> <span class="token comment">// 正在挂载</span>
+<span class="token comment">// 如果一个子应用需要被卸载，那么这个子应用的状态就会变为 UNMOUNTING。</span>
+<span class="token comment">// 此时，子应用的 unmount 方法会执行。</span>
+
+<span class="token keyword">const</span> <span class="token constant">UNMOUNTED</span> <span class="token operator">=</span> <span class="token string">&#39;UNMOUNTED&#39;</span> <span class="token comment">// 卸载完毕</span>
+<span class="token comment">// 子应用卸载完毕以后，子应用的状态就会变为 UNMOUNTED。</span>
+
+<span class="token keyword">const</span> <span class="token constant">LOAD_ERROR</span> <span class="token operator">=</span> <span class="token string">&#39;LOAD_ERROR&#39;</span>  <span class="token comment">// load失败</span>
+<span class="token comment">// 子应用加载失败，子应用的状态就会变为 LOAD_ERROR。</span>
+</code></pre></div><p><code>从最直接被使用的两个方法入手：子应用的注册和基座应用的启动</code></p><h2 id="应用注册（registerapplication）" tabindex="-1">应用注册（registerApplication） <a class="header-anchor" href="#应用注册（registerapplication）" aria-hidden="true">#</a></h2><ul><li>应用注册方法主要是对子应用参数进行格式化后，将子应用放入应用列表中，并把应用状态初始化为<code>NOT_LOADED</code></li></ul><div class="language-js"><pre><code><span class="token keyword">const</span> apps <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+
+<span class="token keyword">function</span> <span class="token function">registerApplication</span><span class="token punctuation">(</span><span class="token parameter">appName<span class="token punctuation">,</span>appLoadFn<span class="token punctuation">,</span>activeWhen<span class="token punctuation">,</span>customProps</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token punctuation">{</span>
+        appName<span class="token punctuation">,</span> <span class="token comment">// 子应用名</span>
+        appLoadFn<span class="token punctuation">,</span> <span class="token comment">// 子应用加载方式</span>
+        activeWhen<span class="token punctuation">,</span> <span class="token comment">// 子应用激活匹配规则</span>
+        customProps <span class="token comment">// 自定义props</span>
+    <span class="token punctuation">}</span>
+    apps<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>
+        <span class="token punctuation">{</span>
+            status<span class="token operator">:</span> <span class="token constant">NOT_LOADED</span><span class="token punctuation">,</span>
+            <span class="token operator">...</span>app
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">)</span>
+    <span class="token comment">// reroute方法主要用于更新应用状态并完成加载卸载操作，具体实现在后面</span>
+    <span class="token function">reroute</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="基座应用启动-start" tabindex="-1">基座应用启动(start) <a class="header-anchor" href="#基座应用启动-start" aria-hidden="true">#</a></h2><ul><li>这里比较简单，只需要对基座唯一状态值进行更改</li></ul><div class="language-js"><pre><code><span class="token comment">// const apps = []</span>
+<span class="token keyword">let</span> isStarted <span class="token operator">=</span> <span class="token boolean">false</span>
+
+<span class="token keyword">function</span> <span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    isStarted <span class="token operator">=</span> <span class="token boolean">true</span>
+<span class="token punctuation">}</span>
+<span class="token comment">// function registerApplication(appName,appLoadFn,activeWhen,customProps){</span>
+<span class="token comment">//  ...</span>
+<span class="token comment">// }</span>
+</code></pre></div><h2 id="更新应用相关-reroute" tabindex="-1">更新应用相关(reroute) <a class="header-anchor" href="#更新应用相关-reroute" aria-hidden="true">#</a></h2><ul><li>reroute方法是对更改所有需要更改的应用状态，并执行对应操作（该挂载的挂载，该卸载的卸载，改为他应该处在的状态）,其实就是url改变后需要做的操作。</li></ul><div class="language-js"><pre><code><span class="token keyword">function</span> <span class="token function">reroute</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">// 首先要遍历所有子应用，并进行归类，分为4类：待加载、待移除、待挂载、待卸载</span>
+    <span class="token keyword">const</span> <span class="token punctuation">{</span>
+        appsToLoad
+        appsToMount
+        appsToUnmount
+        <span class="token comment">// appsToUnload</span>
+    <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">getApps</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token comment">// 对所用应用进行归类后，就可以对其进行分别处理</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>isStarted<span class="token punctuation">)</span><span class="token punctuation">{</span> 
+        appsToLoad<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>toLoad<span class="token punctuation">)</span> <span class="token comment">// 这里可见应用没启动时已经会对所用子应用进行load加载</span>
+    <span class="token punctuation">}</span><span class="token keyword">else</span><span class="token punctuation">{</span>
+        <span class="token comment">// 只有当基座应用启动了才会进行子应用的挂载，否则只需要对子应用进行内容的加载/卸载即可</span>
+        appsToMount<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>tryBootstrapAndMount<span class="token punctuation">)</span>
+        appsToUnmount<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span>toUnMount<span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 子应用加载方法,必须最先加载应用
+     */</span>
+    <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">toLoad</span><span class="token punctuation">(</span><span class="token parameter">app</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">LOAD_SOURCE_CODE</span>
+        <span class="token comment">// 从app的加载函数中导出生命周期钩子方法</span>
+        <span class="token keyword">let</span> <span class="token punctuation">{</span>
+            bootstrap<span class="token punctuation">,</span>
+            mount<span class="token punctuation">,</span>
+            unmount<span class="token punctuation">,</span>
+            unload
+        <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">await</span> app<span class="token punctuation">.</span><span class="token function">appLoadFn</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">NOT_BOOTSTRAPPED</span>
+        <span class="token comment">// 并将所有钩子直接挂在app上，方便后续使用，下文已用TODO标注使用的地方</span>
+        app<span class="token punctuation">.</span>bootstrap <span class="token operator">=</span> bootstrap
+        app<span class="token punctuation">.</span>mount <span class="token operator">=</span> mount
+        app<span class="token punctuation">.</span>unmount <span class="token operator">=</span> unmount
+        app<span class="token punctuation">.</span>unload <span class="token operator">=</span> unload
+    <span class="token punctuation">}</span>
+
+    <span class="token comment">/**
+     * 子应用挂载方法
+     */</span>
+    <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">tryBootstrapAndMount</span><span class="token punctuation">(</span><span class="token parameter">app</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token comment">// 定义一个状态判断当前url是否匹配当前应用，匹配则需要激活当前应用 </span>
+        <span class="token keyword">const</span> shoudBeActive <span class="token operator">=</span> app<span class="token punctuation">.</span><span class="token function">activeWhen</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>location<span class="token punctuation">)</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>shoudBeActive<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">BOOTSTRAPPING</span> 
+            <span class="token keyword">await</span> app<span class="token punctuation">.</span><span class="token function">bootstrap</span><span class="token punctuation">(</span>app<span class="token punctuation">.</span>customProps<span class="token punctuation">)</span>   <span class="token comment">// ！！！TODO 这里用到了应用的第一个方法：bootstrap</span>
+            app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">NOT_MOUNTED</span> <span class="token comment">// 此时子应用启动完成</span>
+
+            <span class="token keyword">if</span><span class="token punctuation">(</span>shoudBeActive<span class="token punctuation">)</span><span class="token punctuation">{</span> 
+                <span class="token comment">// 因为有异步操作，需要再二次判断，防止在异步加载过程中用户手动切换url导致挂载错误</span>
+                app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">MOUNTING</span>
+                <span class="token keyword">await</span> app<span class="token punctuation">.</span><span class="token function">mount</span><span class="token punctuation">(</span>app<span class="token punctuation">.</span>customProps<span class="token punctuation">)</span> <span class="token comment">// ！！！TODO 这里用到了应用的第二个方法：mount</span>
+                app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">MOUNTED</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment">/**
+     * 子应用卸载方法
+     */</span>
+    <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">toUnmount</span> <span class="token punctuation">(</span><span class="token parameter">app</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>app<span class="token punctuation">.</span>status <span class="token operator">!==</span> <span class="token constant">MOUNTED</span><span class="token punctuation">)</span> <span class="token keyword">return</span>
+        app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">MOUNTING</span>
+        <span class="token keyword">await</span> app<span class="token punctuation">.</span><span class="token function">unmount</span><span class="token punctuation">(</span>app<span class="token punctuation">.</span>customProps<span class="token punctuation">)</span> <span class="token comment">// // ！！！TODO 这里用到了应用的第三个方法：unmount</span>
+        app<span class="token punctuation">.</span>status <span class="token operator">=</span> <span class="token constant">NOT_MOUNTED</span>
+        <span class="token keyword">return</span> app
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">function</span> <span class="token function">getApps</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment">// 待加载、待移除、待挂载、待卸载应用数组</span>
+    <span class="token keyword">const</span> appsToLoad <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">const</span> appsToUnload <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">const</span> appsToMount <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    <span class="token keyword">const</span> appsToUnmount <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+    
+    apps<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">app</span><span class="token punctuation">)</span><span class="token operator">=&gt;</span><span class="token punctuation">{</span>
+        <span class="token comment">// 定义一个状态判断当前url是否匹配当前应用，匹配则需要激活当前应用，这里可以抽成公共方法判断，为了更易阅读，这里重新定义</span>
+        <span class="token keyword">const</span> shoudBeActive <span class="token operator">=</span> app<span class="token punctuation">.</span><span class="token function">activeWhen</span><span class="token punctuation">(</span>window<span class="token punctuation">.</span>location<span class="token punctuation">)</span> 
+
+        <span class="token keyword">switch</span> <span class="token punctuation">(</span>app<span class="token punctuation">.</span>status<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">case</span> <span class="token constant">NOT_LOADED</span><span class="token operator">:</span> <span class="token comment">// 状态为NOT_LOADED时只有url匹配才要load应用所以shoudBeActive时加到待加载数组中</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span>shoudBeActive<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    appsToLoad<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>app<span class="token punctuation">)</span>
+                <span class="token punctuation">}</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token keyword">case</span> <span class="token constant">NOT_BOOTSTRAPPED</span><span class="token operator">:</span>
+            <span class="token keyword">case</span> <span class="token constant">NOT_MOUNTED</span><span class="token operator">:</span> <span class="token comment">// 当加载完后，需要激活时才将应用放入待挂载数组重</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span>appShouldBeActive<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                    appsToMount<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>app<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span> 
+                <span class="token comment">// else {</span>
+                <span class="token comment">//     appsToUnload.push(app); // 这里的移除操作不影响主流程的实现，顾不做深入</span>
+                <span class="token comment">// }</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token keyword">case</span> <span class="token constant">MOUNTED</span><span class="token operator">:</span>
+                <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>appShouldBeActive<span class="token punctuation">)</span><span class="token punctuation">{</span> <span class="token comment">// 当应用已经挂在，并且不需要激活当前应用时，加入待卸载数组中等待卸载</span>
+                    appsToUnmount<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>app<span class="token punctuation">)</span>
+                <span class="token punctuation">}</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token keyword">default</span><span class="token operator">:</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span> appsToLoad<span class="token punctuation">,</span> appsToUnload<span class="token punctuation">,</span> appsToMount<span class="token punctuation">,</span> appsToUnmount <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="路由监听" tabindex="-1">路由监听 <a class="header-anchor" href="#路由监听" aria-hidden="true">#</a></h2><ul><li>截止目前，我们已经做好了所有应用的相关操作：子应用的加载、以及路由变化后所做的挂载、卸载等，还剩下最后一步路由的监听，只有监听了路由的改变，我们的single-spa才能对子应用执行相应的操作</li></ul><div class="language-js"><pre><code>    <span class="token comment">// 监听window的hashchange、popstate两个事件，一旦url改变执行reroute操作</span>
+    window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&quot;hashchange&quot;</span><span class="token punctuation">,</span> reroute<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    window<span class="token punctuation">.</span><span class="token function">addEventListener</span><span class="token punctuation">(</span><span class="token string">&quot;popstate&quot;</span><span class="token punctuation">,</span> reroute<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 下面是对window history相关事件的增强，主要是在其方法内添加reroute的执行</span>
+    window<span class="token punctuation">.</span>history<span class="token punctuation">.</span>pushState <span class="token operator">=</span> <span class="token function">patchedUpdateState</span><span class="token punctuation">(</span>
+        window<span class="token punctuation">.</span>history<span class="token punctuation">.</span>pushState<span class="token punctuation">,</span>
+        <span class="token string">&quot;pushState&quot;</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    window<span class="token punctuation">.</span>history<span class="token punctuation">.</span>replaceState <span class="token operator">=</span> <span class="token function">patchedUpdateState</span><span class="token punctuation">(</span>
+        window<span class="token punctuation">.</span>history<span class="token punctuation">.</span>replaceState<span class="token punctuation">,</span>
+        <span class="token string">&quot;replaceState&quot;</span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// 该方法用于对window.history事件的包装</span>
+    <span class="token keyword">function</span> <span class="token function">patchedUpdateState</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">const</span> urlBefore <span class="token operator">=</span> window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>href<span class="token punctuation">;</span>
+            <span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token function">updateState</span><span class="token punctuation">.</span><span class="token function">apply</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 这里是维持执行原来的事件内容并拿到返回值</span>
+            <span class="token keyword">const</span> urlAfter <span class="token operator">=</span> window<span class="token punctuation">.</span>location<span class="token punctuation">.</span>href<span class="token punctuation">;</span>
+
+            <span class="token keyword">if</span> <span class="token punctuation">(</span>urlBefore <span class="token operator">!==</span> urlAfter<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token comment">// 变更前后url不一样 则出发reroute</span>
+                reroute
+            <span class="token punctuation">}</span>
+            <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</code></pre></div><h2 id="结束" tabindex="-1">结束 <a class="header-anchor" href="#结束" aria-hidden="true">#</a></h2><p>上文只是大致实现了一个极简版single-spa，不难看出，其本质上是一个加载器（控制子应用加载、卸载等功能的应用）和状态机（更改应用状态）的结合体。在项目中，往往还需要配合single-spa-vue来使用，下一篇文章我将简单实现一下single-spa-vue的功能。</p></div></div><footer class="page-footer" data-v-7eddb2c4 data-v-fb8d84c6><div class="edit" data-v-fb8d84c6><div class="edit-link" data-v-fb8d84c6 data-v-1ed99556><!----></div></div><div class="updated" data-v-fb8d84c6><!----></div></footer><div class="next-and-prev-link" data-v-7eddb2c4 data-v-38ede35f><div class="container" data-v-38ede35f><div class="prev" data-v-38ede35f><a class="link" href="/micro-front/single-spa" data-v-38ede35f><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-prev" data-v-38ede35f><path d="M19,11H7.4l5.3-5.3c0.4-0.4,0.4-1,0-1.4s-1-0.4-1.4,0l-7,7c-0.1,0.1-0.2,0.2-0.2,0.3c-0.1,0.2-0.1,0.5,0,0.8c0.1,0.1,0.1,0.2,0.2,0.3l7,7c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3c0.4-0.4,0.4-1,0-1.4L7.4,13H19c0.6,0,1-0.4,1-1S19.6,11,19,11z"></path></svg><span class="text" data-v-38ede35f>single-spa</span></a></div><div class="next" data-v-38ede35f><a class="link" href="/browser/" data-v-38ede35f><span class="text" data-v-38ede35f>浏览器</span><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="icon icon-next" data-v-38ede35f><path d="M19.9,12.4c0.1-0.2,0.1-0.5,0-0.8c-0.1-0.1-0.1-0.2-0.2-0.3l-7-7c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4l5.3,5.3H5c-0.6,0-1,0.4-1,1s0.4,1,1,1h11.6l-5.3,5.3c-0.4,0.4-0.4,1,0,1.4c0.2,0.2,0.5,0.3,0.7,0.3s0.5-0.1,0.7-0.3l7-7C19.8,12.6,19.9,12.5,19.9,12.4z"></path></svg></a></div></div></div><!--[--><!--]--></div></main></div><!----><!--]--></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"browser_index.md\":\"a108c502\",\"cli_index.md\":\"e0276bca\",\"css_index.md\":\"f2211e02\",\"http_tcp.md\":\"d549bb1c\",\"http_index.md\":\"2b323b04\",\"index.md\":\"e9e64e69\",\"js_index.md\":\"0040c5e6\",\"leetcode_index.md\":\"fbfda76b\",\"micro-front_index.md\":\"666591bc\",\"micro-front_single-spa-diy.md\":\"9d8aa440\",\"micro-front_single-spa.md\":\"be6ac60f\",\"mine_index.md\":\"686f6b81\",\"node_index.md\":\"f9045d63\",\"svg_index.md\":\"5f0be1ee\",\"ts_index.md\":\"0a1c9af7\",\"vue_index.md\":\"77c1e881\",\"vue_vue2.md\":\"0f8ed8e1\",\"vue_vue3.md\":\"cc9f15e8\"}")</script>
+    <script type="module" async src="/assets/app.34e5d764.js"></script>
+    
+  </body>
+</html>

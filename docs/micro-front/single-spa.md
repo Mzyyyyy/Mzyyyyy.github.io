@@ -2,7 +2,7 @@
 
 ## 注册子应用
 
-single-spa 中最终要的，也是加载应用最开始的，就是注册子应用的方法，如下：
+single-spa 中最重要的，也是加载应用最开始的，就是注册子应用的方法，如下：
 
 ```javascript
 singleSpa.registerApplication({
@@ -52,7 +52,7 @@ singleSpa.start(); // 启动主应用
 
 ## 子应用生命周期
 
-子应用需要导出三个生命周期钩子函数：
+子应用需要在app()中导出三个生命周期钩子函数：
 
 ```js
 export const bootstrap = () => {};

@@ -48,6 +48,7 @@ module.exports = {
           text: '微前端', 
           children: [
             { text: 'single-spa', link: '/micro-front/single-spa' },
+            { text: '手写single-spa', link: '/micro-front/single-spa-diy' },
           ]
         },
         { text: '浏览器', link: '/browser/' },
